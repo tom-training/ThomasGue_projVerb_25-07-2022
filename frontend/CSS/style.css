@@ -1,0 +1,195 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#mainContainer {
+
+    margin-top: 5%;
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap; 
+    width: 100%;
+   
+}
+
+
+h1{
+      align-items: center;
+}
+
+#boutonStart{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2% 5% 2% 5%;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+}
+
+#cadreFlagGE{
+    /* border: 1px solid black; */
+    margin-bottom: 10%;
+    width: 50%;
+    height: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+}
+
+.black{
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+#verbAllemand{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow{
+    background-color: yellow;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+     
+}
+
+.paragraph{
+    margin-bottom: 10%;
+}
+
+
+#cadreFlagFR{
+    /*border: 1px solid black; */
+    margin-bottom: 3%;
+    width: 50%;
+    height: 100px;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+}
+
+.bluetop{
+    background-color: blue;
+    grid-column: 1/3;
+    grid-row: 1;
+    border-top-left-radius: 5px;
+}
+
+.blueside{
+    background-color: blue;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.bluebottom{
+    background-color: blue;
+    grid-column: 1/3;
+    grid-row: 3;
+    border-bottom-left-radius: 5px;
+}
+
+
+#quizForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    grid-column: 2/5;
+    grid-row: 2;
+    overflow: visible;
+    border-radius: 5px;
+    
+}
+
+#traducFra{
+    margin-right: 4px;
+    width: 120px;
+    overflow: visible;
+    border: none;
+    width: 60%;
+    border: 1px solid lightgrey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#envoi{
+    border: none;
+    width: 40%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.whitetop{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.whitebottom{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.redtop{
+    background-color: red;
+    grid-column: 4/6;
+    grid-row: 1;
+    border-top-right-radius: 5px;
+}
+
+.redside{
+    background-color: red;
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.redbottom{
+    background-color: red;
+    grid-column: 4/6;
+    grid-row: 3;  
+    border-bottom-right-radius: 5px; 
+}
+
+#test{
+    margin-bottom: 3%;
+}
+
+#result{
+    margin-bottom: 3%;
+
+}
+
+#leDernier{
+    margin-bottom: 3%;
+
+}
+
+#rechargeTableau{
+    padding: 1% 3% 1% 3%;
+}

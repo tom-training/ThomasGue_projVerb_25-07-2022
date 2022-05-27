@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Le frontend de mon appli linguistique",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
