@@ -55,7 +55,6 @@ var mesVerbes = [
 ];
 
 
-
 var mesVERBESallemand = [
     {
       'Verbe Allemand': 'abbeißen',

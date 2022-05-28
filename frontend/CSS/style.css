@@ -18,27 +18,46 @@ body{
 
 
 #mainContainer {
-
-    margin-top: 5%;
-    max-width: 550px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap; 
     width: 100%;
-   
 }
 
 
 h1{
-      align-items: center;
+      display: flex;
+      justify-content: center;
 }
 
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 300px;
+}
+
+.gauche{
+
+    grid-column: 1;
+    
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    max-height: 300px;
+    
+}
+
+.droite{
+    grid-column: 2;
+     
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    max-height: 300px;
+}
+
+
 #boutonStart{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 10% 10% 10% 10%;
     padding: 2% 5% 2% 5%;
+
+    grid-row: 1;
 }
 
 button{
@@ -48,7 +67,10 @@ button{
 
 #cadreFlagGE{
     /* border: 1px solid black; */
-    margin-bottom: 10%;
+
+    grid-row: 2;
+
+    margin-left: 25%;
     width: 50%;
     height: 100px;
     display: grid;
@@ -81,13 +103,21 @@ button{
 }
 
 .paragraph{
-    margin-bottom: 10%;
+    grid-row: 1;
+    margin: 10% 10% 10% 10%;
+    font-size: 1em;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 #cadreFlagFR{
+
+    grid-row: 2;
     /*border: 1px solid black; */
-    margin-bottom: 3%;
+    margin-left: 25%;
     width: 50%;
     height: 100px;
     display: grid;
@@ -130,10 +160,11 @@ button{
 
 #traducFra{
     margin-right: 4px;
-    width: 120px;
+   
+    height: 2em;
     overflow: visible;
     border: none;
-    width: 60%;
+    width: 80%;
     border: 1px solid lightgrey;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -141,9 +172,11 @@ button{
 
 #envoi{
     border: none;
-    width: 40%;
+    width: 20%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    font-size: 0.5em;
+    
 }
 
 .whitetop{
@@ -175,18 +208,38 @@ button{
     grid-row: 3;  
     border-bottom-right-radius: 5px; 
 }
-
+/*
 #test{
-    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 3;
+}
+*/
+/* début du style du footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #result{
-    margin-bottom: 3%;
+    margin-bottom: 1%;
+    background-color: antiquewhite;
+    padding: 2% 2% 2% 2%;
+    border-radius: 15px;
 
 }
 
 #leDernier{
-    margin-bottom: 3%;
+    margin-bottom: 1%;
+
+    color: red;
+    background-color: lightcyan;
+    padding: 2% 2% 2% 2%;
+    border-radius: 15px;
 
 }
 

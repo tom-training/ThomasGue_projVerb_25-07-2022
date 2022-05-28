@@ -11,55 +11,63 @@
 <body>
 
     <div id="mainContainer">
-        <h1> Les verbes allemands </h1>
 
-        <button id="boutonStart"> <label> un verbe allemand au hasard  </label></button>
-
-        <div id="cadreFlagGE">
-
-            <div class="black"></div>
-            <p id="verbAllemand"> le verbe allemand </p>
-            <div class="yellow"></div>
-
-        </div>
+        <header>
+            <h1> Les verbes allemands </h1>
+        </header>
         
+        <main>
+            <div class="gauche"> 
+                <button id="boutonStart"> <label> un verbe allemand au hasard  </label></button>
     
-        <p class="paragraph"> sa traduction ci-dessous </p>
-
-        <div id="cadreFlagFR">
-
-            <div class="bluetop"></div>
-
-            <div class="blueside"></div>
-
-            <div class="bluebottom"></div>
-            <form id="quizForm">
-                <input type="text" name="votreReponse" id="traducFra" required>
+                <div id="cadreFlagGE">
+        
+                    <div class="black"></div>
+                    <p id="verbAllemand"> le verbe allemand </p>
+                    <div class="yellow"></div>
+        
+                </div>
+            </div>
     
-                <input type="submit" name="envoi" id="envoi" value="Valider"> 
-            </form>
-
-            <div class="whitetop"></div>
-            <div class="whitebottom"></div>
-            <div class="redtop"></div>
-            <div class="redside"></div>
-            <div class="redbottom"></div>
             
-        </div>
-        
-      
+            <div class="droite">
     
+                <h2 class="paragraph"> sa traduction ci-dessous </h2>
+    
+                <div id="cadreFlagFR">
         
+                    <div class="bluetop"></div>
         
-        <p id="test"> Votre réponse </p>
+                    <div class="blueside"></div>
         
-        <p id="result"> Le Résultat </p> 
+                    <div class="bluebottom"></div>
+                    <form id="quizForm">
+                        <input type="text" name="votreReponse" id="traducFra" required>
+            
+                        <input type="submit" name="envoi" id="envoi" value="Valider"> 
+                    </form>
         
-        
-        <p id="leDernier"> Le dernier verbe </p>
+                    <div class="whitetop"></div>
+                    <div class="whitebottom"></div>
+                    <div class="redtop"></div>
+                    <div class="redside"></div>
+                    <div class="redbottom"></div>
+                    
+                </div>
+                
+                <!-- <p id="test"> Votre réponse </p> -->
+    
+            </div>
+        </main>
 
-        <button id="rechargeTableau"> Recharger les Verbes </button>
-
+        <footer>
+            <p id="result"> Le Résultat </p> 
+        
+            <p id="leDernier"> Le dernier verbe </p>
+    
+            <button id="rechargeTableau"> Recharger les Verbes </button>
+        </footer>
+        
     </div>
     
 </body>
