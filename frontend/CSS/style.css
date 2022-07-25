@@ -28,6 +28,10 @@ h1{
 }
 
 main{
+    margin-bottom: 3%;
+}
+
+#mainDiv{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -208,14 +212,28 @@ button{
     grid-row: 3;  
     border-bottom-right-radius: 5px; 
 }
-/*
-#test{
+
+
+#alors{
+
+    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    grid-row: 3;
+    width: 100%;   
+    
+}    
+
+.lesResultats{
+    
+    background-color: antiquewhite;
+    padding: 4px 4px 4px 4px;
+    border-radius: 15px;
+    
 }
-*/
+
+
+
 /* début du style du footer */
 
 footer{
@@ -225,17 +243,17 @@ footer{
     align-items: center;
 }
 
-#result{
-    margin-bottom: 1%;
-    background-color: antiquewhite;
-    padding: 2% 2% 2% 2%;
-    border-radius: 15px;
 
+
+.reponse{
+    
+    width: 10%;
+    padding: 3px 2px 3px 2px;
+    margin-bottom: 2%;
 }
 
 #leDernier{
     margin-bottom: 1%;
-
     color: red;
     background-color: lightcyan;
     padding: 2% 2% 2% 2%;

@@ -1,0 +1,5 @@
+https://docs.sheetjs.com/docs/installation/standalone
+surtout celui-là
+
+
+https://docs.sheetjs.com/docs/solutions/input

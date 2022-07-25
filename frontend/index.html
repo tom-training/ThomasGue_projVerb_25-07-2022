@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les verbes allemands</title>
+    <title>Le vocabulaire allemand</title>
 
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 320px) and (max-width: 2000px)" href="CSS/style.css"/>
 </head>
@@ -13,66 +13,86 @@
     <div id="mainContainer">
 
         <header>
-            <h1> Les verbes allemands </h1>
+            <h1> Les mots allemands </h1>
         </header>
         
         <main>
-            <div class="gauche"> 
-                <button id="boutonStart"> <label> un verbe allemand au hasard  </label></button>
-    
-                <div id="cadreFlagGE">
+
+            <div id="mainDiv"> 
+
+                <div class="gauche"> 
+                    <button id="boutonStart"> <label> un mot allemand au hasard  </label></button>
         
-                    <div class="black"></div>
-                    <p id="verbAllemand"> le verbe allemand </p>
-                    <div class="yellow"></div>
-        
-                </div>
-            </div>
-    
+                    <div id="cadreFlagGE">
             
-            <div class="droite">
-    
-                <h2 class="paragraph"> sa traduction ci-dessous </h2>
-    
-                <div id="cadreFlagFR">
-        
-                    <div class="bluetop"></div>
-        
-                    <div class="blueside"></div>
-        
-                    <div class="bluebottom"></div>
-                    <form id="quizForm">
-                        <input type="text" name="votreReponse" id="traducFra" required>
+                        <div class="black"></div>
+                        <p id="verbAllemand"> le verbe allemand </p>
+                        <div class="yellow"></div>
             
-                        <input type="submit" name="envoi" id="envoi" value="Valider"> 
-                    </form>
-        
-                    <div class="whitetop"></div>
-                    <div class="whitebottom"></div>
-                    <div class="redtop"></div>
-                    <div class="redside"></div>
-                    <div class="redbottom"></div>
-                    
+                    </div>
                 </div>
+        
                 
-                <!-- <p id="test"> Votre réponse </p> -->
+                <div class="droite">
+        
+                    <h2 class="paragraph"> sa traduction ci-dessous </h2>
+        
+                    <div id="cadreFlagFR">
+            
+                        <div class="bluetop"></div>
+            
+                        <div class="blueside"></div>
+            
+                        <div class="bluebottom"></div>
+                        <form id="quizForm">
+                            <input type="text" name="votreReponse" id="traducFra" required>
+                
+                            <input type="submit" name="envoi" id="envoi" value="Valider"> 
+                        </form>
+            
+                        <div class="whitetop"></div>
+                        <div class="whitebottom"></div>
+                        <div class="redtop"></div>
+                        <div class="redside"></div>
+                        <div class="redbottom"></div>
+                        
+                    </div>
+                
     
+                </div>
             </div>
+
+          
+
+            <div id="alors">
+                <p id="resultUn" class="lesResultats"> Le Résultat </p>
+                <p id="resultDeux" class="lesResultats"> </p>
+                <p id="resultTrois" class="lesResultats"> </p>
+                <p id="resultQuatre" class="lesResultats"> </p>
+                
+            </div>
+
         </main>
 
         <footer>
-            <p id="result"> Le Résultat </p> 
+
+            <button class="reponse"> La réponse </button> 
         
-            <p id="leDernier"> Le dernier verbe </p>
+            <p id="leDernier"> Le dernier mot </p>
     
-            <button id="rechargeTableau"> Recharger les Verbes </button>
+            <button id="rechargeTableau"> Recharger les mots </button>
         </footer>
         
     </div>
     
 </body>
 
+
+
+<script src="main.js"></script>
 <script src="script.js"></script>
+
+
 
 
 </html>

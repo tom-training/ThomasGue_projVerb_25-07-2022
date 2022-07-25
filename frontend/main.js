@@ -1,4 +1,4 @@
-const XLSX = require('xlsx');
+var XLSX = require("xlsx");
 
 const workbook = XLSX.readFile('vbal.xlsx');
 
